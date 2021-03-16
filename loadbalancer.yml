@@ -49,7 +49,7 @@
               name: httpd
               state: present
            
-          - name: Create the file with content
+          - name: Copy the file
             copy:
               dest: /var/www/html
               src: index.php
